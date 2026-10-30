@@ -1,0 +1,37 @@
+Package: mqjtools
+Title: Personal Toolkit for Clinical and Bioinformatics Analysis
+Version: 0.1.0
+Authors@R:
+    person(given = "QJ",
+           family = "Meng",
+           email = "change-me@example.com",
+           role = c("aut", "cre"))
+Description: A personal collection of helper functions for routine clinical
+    data cleaning, regression reporting, figure styling, and lightweight
+    access to large reference resources that are kept outside the package.
+    The package is intended for internal use and is distributed via a
+    private GitHub repository rather than CRAN.
+License: MIT + file LICENSE
+URL: https://github.com/<your-account>/mqjtools
+BugReports: https://github.com/<your-account>/mqjtools/issues
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.1.0)
+Imports:
+    stats,
+    tools,
+    utils
+Suggests:
+    data.table,
+    ggplot2,
+    knitr,
+    openxlsx,
+    readxl,
+    rmarkdown,
+    survival,
+    testthat (>= 3.0.0),
+    writexl
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0

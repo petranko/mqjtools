@@ -1,0 +1,25 @@
+# R 会话与临时文件
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+
+# 构建产物
+*.tar.gz
+*.zip
+/docs/
+*.Rcheck/
+
+# 大型数据：绝不入库
+inst/extdata/*.gz
+inst/extdata/*.rds
+inst/extdata/*.RData
+data/*.rda.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+.httr-oauth
+.quarto

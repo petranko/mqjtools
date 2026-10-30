@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^\.git$
+^\.gitignore$
+^dev$
+^README\.Rmd$
+^\.lintr$
+^\.vscode$
+^GUIDE\.md$
+^.*\.Rcheck$
+^build$
